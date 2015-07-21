@@ -1,0 +1,6 @@
+light-locker --lock-on-suspend &
+# pulseaudio --start
+xbindkeys
+feh --bg-fill ~/Pictures/Wallpapers/Light/Light/MaterialGreen.png
+xset -dpms; xset s off
+#xcompmgr -cCfF &

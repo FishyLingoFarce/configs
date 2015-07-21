@@ -1,0 +1,68 @@
+! General
+! Xft.dpi: 125
+Xft.rgba: rgb
+Xft.antialias: true
+! Xft.hinting: true
+! Xft.hintstyle: hintslight
+! Xft.autohint: true
+! *background: #424242
+*background: #37474F
+*geometry: 84x24
+*cursorColor: #2C2E2F
+*cursorBlink: 1
+
+! UXTerm
+UXTerm*faceName: Droid Sans Mono
+UXTerm*faceSize: 6
+
+! URxvt
+URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.font: xft:Droid Sans Mono:size=11
+URxvt.letterSpace: -1
+
+! Colors
+
+!Black
+*color0: #000000
+!Gray
+*color7: #EEEEEE
+*color8: #616161
+!Red
+*color1: #FF1744
+*color9: #F44336
+!Green
+*color2: #4CAF50
+*color10: #00E676
+!Yellow
+*color3: #FFEB3B
+*color11: #FFEA00
+!Blue
+*color4: #2979FF
+*color12: #2196F3
+!Magenta
+*color5: #9C27B0
+*color13: #D500F9
+!Cyan
+*color6: #009688
+*color14: #1DE9B6
+!White
+*color15: #FFFFFF
+
+! Old Colors
+!*color0: #2C2E2F
+!*color1: #88132A
+!*color2: #138836
+!*color3: #887113
+!*color4: #136588
+!*color5: #711388
+!*color6: #138871
+!*color7: #??????
+!*color8: #383A3B
+!*color9: #BC1A3A
+!*color10: #1ABC4B
+!*color11: #BC9C1A
+!*color12: #1A8BBC
+!*color13: #9C1ABC
+!*color14: #1ABC9C
+!*color15: #??????
