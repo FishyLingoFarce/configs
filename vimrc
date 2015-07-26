@@ -4,8 +4,9 @@ syntax on
 filetype plugin indent on
 set autoindent
 
-" Highlight current line
+" Highlight current line and column
 set cul
+set cuc
 
 set guifont=Roboto\ Mono\ 8
 
