@@ -7,7 +7,7 @@ set autoindent
 " Highlight current line
 set cul
 
-set guifont=Droid\ Sans\ Mono\ 8
+set guifont=Roboto\ Mono\ 8
 
 " Allow mouse in terminal
 set mouse=a
