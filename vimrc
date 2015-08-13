@@ -11,7 +11,7 @@ set cuc
 set guifont=Roboto\ Mono\ 8
 
 " Allow mouse in terminal
-set mouse=a
+" set mouse=a
 
 " Sets keys to move to next line when pressed at end
 set whichwrap=b,s,<,>,h,l,[,]
