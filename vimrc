@@ -21,6 +21,7 @@ set number
 
 " Line length limit
 set textwidth=80
+2mat ErrorMsg '\%81v.'
 
 " tabstop: length of hard tab
 " softtabstop: tells vim to treat x spaces as tab
