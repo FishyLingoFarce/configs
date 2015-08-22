@@ -4,6 +4,7 @@ setenv EDITOR vim
 set fish_color_normal -o white
 set fish_color_command -o blue
 set fish_color_quote -o magenta
+set fish_color_redirection -o cyan
 set fish_color_end -o white
 set fish_color_error -o red
 set fish_color_param -o cyan
