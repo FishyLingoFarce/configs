@@ -222,7 +222,11 @@ for_window [window_role="task_dialog"] floating enable
 
 # Workspace assignments
 workspace "1: Web" output LVDS1
-workspace "6: TV" output HDMI1
+workspace "2: Term" output LVDS1
+workspace "3: Devel" output LVDS1
+workspace "4: Media" output LVDS1
+workspace "5: School" output LVDS1
+workspace "6: TV" output VGA1
 
 # assign [class="Chromium"] "1: Web"
 # assign [class="URxvt"] "2: Term"
