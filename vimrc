@@ -56,6 +56,9 @@ set foldlevelstart=3
 " Shows last command (Airline does this automatically)
 set showcmd
 
+" Graphical menu of tab matches
+set wildmenu
+
 " Colorscheme settings
 set t_Co=256
 set background=dark
