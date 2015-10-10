@@ -59,6 +59,9 @@ set showcmd
 " Graphical menu of tab matches
 set wildmenu
 
+" Search as typed
+set incsearch
+
 " Colorscheme settings
 set t_Co=256
 set background=dark
