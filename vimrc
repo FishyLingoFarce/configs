@@ -51,7 +51,7 @@ let b:delimitMate_expand_cr = 1
 
 " Code folding
 set foldmethod=indent
-set foldlevel=99
+set foldlevelstart=3
 
 " Colorscheme settings
 set t_Co=256
