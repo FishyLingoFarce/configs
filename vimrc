@@ -53,6 +53,9 @@ let b:delimitMate_expand_cr = 1
 set foldmethod=indent
 set foldlevelstart=3
 
+" Shows last command (Airline does this automatically)
+set showcmd
+
 " Colorscheme settings
 set t_Co=256
 set background=dark
