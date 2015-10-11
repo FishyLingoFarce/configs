@@ -49,7 +49,7 @@ let g:syntastic_python_checkers=["pep8"]
 " DelimitMate expands carriage return in braces
 let b:delimitMate_expand_cr = 1
 
-" Code folding
+" Folds code after 3 indents
 set foldmethod=indent
 set foldlevelstart=3
 
