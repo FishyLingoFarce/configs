@@ -7,7 +7,7 @@ Xft.antialias: true
 ! Xft.autohint: true
 ! *background: #424242
 *background: #37474F
-*geometry: 80x24
+*geometry: 80x26
 *cursorColor: #2C2E2F
 *cursorBlink: 1
 
