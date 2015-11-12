@@ -16,6 +16,7 @@ UXTerm*faceName: Droid Sans Mono
 UXTerm*faceSize: 6
 
 ! URxvt
+URxvt.scrollTtyOutput: false
 URxvt.scrollBar: false
 URxvt.depth: 32
 URxvt.font: xft:Roboto Mono:size=11
