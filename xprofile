@@ -1,4 +1,5 @@
 light-locker --lock-on-suspend &
+redshift &
 # pulseaudio --start
 xbindkeys
 feh --bg-fill ~/Drive/Wallpapers/MaterialDesign/Mountains.png
