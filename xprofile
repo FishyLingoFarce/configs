@@ -2,7 +2,7 @@ light-locker --lock-on-suspend &
 redshift &
 # pulseaudio --start
 xbindkeys
-feh --bg-fill ~/Drive/Wallpapers/MaterialDesign/Mountains.png
+feh --bg-fill ~/Drive/Wallpapers/ColoredBars.png
 xset -dpms; xset s off
 #xcompmgr -cCfF &
 # xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 1
