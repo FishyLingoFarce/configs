@@ -46,3 +46,8 @@ function fish_prompt
 
     set_color normal
 end
+
+function pacup
+	pacman -Syu
+	cower -duft ~/Builds
+end
