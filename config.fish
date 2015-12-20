@@ -48,6 +48,6 @@ function fish_prompt
 end
 
 function pacup
-	pacman -Syu
+	sudo pacman -Syu
 	cower -duft ~/Builds
 end
