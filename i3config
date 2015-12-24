@@ -6,6 +6,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
+font pango:Droid Sans 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -182,24 +183,24 @@ hide_edge_borders none
 
 bar {
     # output LVDS1
-    font pango:Roboto, Ionicons 8
+    font pango:Droid Sans, Ionicons 8
     colors {
-        background #00796B
+        background #616161
         statusline #FFFFFF
-        separator  #FFFFFF
-        focused_workspace  #4DB6AC #4DB6AC #000000
-        inactive_workspace #616161 #616161 #FFFFFF
-        urgent_workspace   #FF1744 #FF1744 #FFFFFF
+        separator  #1DE9B6
+        focused_workspace  #009688 #009688 #FFFFFF
+        inactive_workspace #000000 #000000 #FFFFFF
+        urgent_workspace   #F44336 #F44336 #FFFFFF
     }
         status_command i3status -c ~/.i3/i3status.conf
 #    status_command ~/.i3/my_i3status.sh
     position top
 }
 #Colors                 Border  Backgr. Text    Indicator
-client.focused          #009688 #009688 #FFFFFF #2979FF
-client.focused_inactive #00897B #00897B #FFFFFF #2979FF
-client.unfocused        #000000 #000000 #FFFFFF #2979FF
-client.urgent           #FF1744 #FF1744 #FFFFFF #2979FF
+client.focused          #009688 #009688 #FFFFFF #E040FB
+client.focused_inactive #00796B #00796B #FFFFFF #E040FB
+client.unfocused        #000000 #000000 #FFFFFF #E040FB
+client.urgent           #F44336 #F44336 #FFFFFF #E040FB
 #client.placeholder
 
 #Starts certain windows as floating
