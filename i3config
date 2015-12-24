@@ -155,8 +155,8 @@ mode "move" {
 bindsym $mod+m focus floating; mode "move"
 
 #Sets the size of window borders
-new_window normal
-new_float normal
+new_window pixel 2
+new_float pixel 2
 
 #Hides borders of windows adjacent to screen edge
 hide_edge_borders none
