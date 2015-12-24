@@ -49,21 +49,3 @@ URxvt.letterSpace: -1
 *color14: #1DE9B6
 !White
 *color15: #FFFFFF
-
-! Old Colors
-!*color0: #2C2E2F
-!*color1: #88132A
-!*color2: #138836
-!*color3: #887113
-!*color4: #136588
-!*color5: #711388
-!*color6: #138871
-!*color7: #??????
-!*color8: #383A3B
-!*color9: #BC1A3A
-!*color10: #1ABC4B
-!*color11: #BC9C1A
-!*color12: #1A8BBC
-!*color13: #9C1ABC
-!*color14: #1ABC9C
-!*color15: #??????
