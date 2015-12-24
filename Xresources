@@ -28,11 +28,11 @@ URxvt.letterSpace: -1
 !Black
 *color0: #000000
 !Gray
-*color7: #EEEEEE
+*color7: #9E9E9E
 *color8: #616161
 !Red
-*color1: #FF1744
-*color9: #F44336
+*color1: #F44336
+*color9: #FF1744
 !Green
 *color2: #4CAF50
 *color10: #00E676
@@ -40,11 +40,11 @@ URxvt.letterSpace: -1
 *color3: #FFEB3B
 *color11: #FFEA00
 !Blue
-*color4: #2979FF
-*color12: #2196F3
+*color4: #2196F3
+*color12: #448AFF
 !Magenta
 *color5: #9C27B0
-*color13: #D500F9
+*color13: #E040FB
 !Cyan
 *color6: #009688
 *color14: #1DE9B6
