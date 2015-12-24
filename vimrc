@@ -63,6 +63,6 @@ set wildmenu
 set incsearch
 
 " Colorscheme settings
-set t_Co=256
+set t_Co=16
 set background=dark
 colorscheme my_colorscheme
