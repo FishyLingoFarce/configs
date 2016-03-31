@@ -21,9 +21,7 @@ URxvt.scrollTtyKeypress: true
 URxvt.scrollBar: false
 URxvt.depth: 32
 ! URxvt.font: xft:Inconsolata:size=13
-URxvt.font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
-URxvt.boldFont: -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
-URxvt.italicFont: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
+URxvt.font: xft:Terminus:pixelsize=14
 
 ! URxvt.letterSpace: -1
 
