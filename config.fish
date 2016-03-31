@@ -1,4 +1,5 @@
 set fish_greeting ''
+set -x XDG_RUNTIME_DIR /tmp
 setenv EDITOR vim
 
 set fish_color_normal -o white
@@ -49,5 +50,6 @@ end
 
 function pacup
 	sudo pacman -Syu
-	cower -duft ~/Builds
+	printf 'AUR Packages to be updated: %s\n' (cower -qu | wc -l)
+	cower -qu
 end
