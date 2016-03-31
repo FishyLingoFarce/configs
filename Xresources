@@ -1,14 +1,14 @@
 ! General
 ! Xft.dpi: 125
 Xft.rgba: rgb
-Xft.antialias: true
+! Xft.antialias: true
 ! Xft.hinting: true
 ! Xft.hintstyle: hintslight
 ! Xft.autohint: true
-! *background: #424242
-*background: #37474F
+! *background: #37474F
+*background: #303030
 *geometry: 56x19
-*cursorColor: #2C2E2F
+*cursorColor: #424242
 *cursorBlink: 1
 
 ! UXTerm
@@ -20,8 +20,12 @@ URxvt.scrollTtyOutput: false
 URxvt.scrollTtyKeypress: true
 URxvt.scrollBar: false
 URxvt.depth: 32
-URxvt.font: xft:Inconsolata:size=13
-URxvt.letterSpace: -1
+! URxvt.font: xft:Inconsolata:size=13
+URxvt.font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
+URxvt.boldFont: -*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*
+URxvt.italicFont: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*
+
+! URxvt.letterSpace: -1
 
 ! Colors
 
