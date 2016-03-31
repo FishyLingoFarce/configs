@@ -1,5 +1,6 @@
-light-locker --lock-on-suspend &
+# light-locker --lock-on-suspend &
 redshift &
+compton &
 # pulseaudio --start
 xbindkeys
 feh --bg-fill ~/Drive/Wallpapers/ColoredBars.png
