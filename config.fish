@@ -24,28 +24,28 @@ set __fish_git_prompt_showstashstate 'yes'
 set __fish_git_prompt_showupstream 'yes'
 
 function fish_prompt
-    set last_status $status
+	set last_status $status
 
-    set_color -ou blue
-    printf '[%s]' (date "+%H:%M")
-    set_color normal
+	set_color -ou blue
+	printf '[%s]' (date "+%H:%M")
+	set_color normal
 
-    set_color -o green
-    printf ' %s' $USER
+	set_color -o green
+	printf ' %s' $USER
 
-    set_color -o blue
-    printf '@'
+	set_color -o blue
+	printf '@'
 
-    set_color -o cyan
-    printf '%s ' (hostname)
+	set_color -o cyan
+	printf '%s ' (hostname)
 
-    set_color -o red
-    printf '[%s%s] ' (prompt_pwd) (__fish_git_prompt)
+	set_color -o red
+	printf '[%s%s] ' (prompt_pwd) (__fish_git_prompt)
 
-    set_color -o green
-    printf '> '
+	set_color -o green
+	printf '> '
 
-    set_color normal
+	set_color normal
 end
 
 function pacup
