@@ -52,7 +52,7 @@ highlight MatchParen cterm=bold ctermfg=white ctermbg=cyan gui=bold guifg=white 
 highlight Normal ctermfg=white guibg=#37474F
 highlight Comment ctermfg=black guifg=black
 highlight Constant ctermfg=magenta guifg=magenta
-highlight Special cterm=bold ctermfg=green gui=bold guifg=gree
+highlight Special cterm=bold ctermfg=green gui=bold guifg=green
 highlight Identifier cterm=bold ctermfg=cyan gui=bold guifg=cyan
 highlight Statement cterm=bold ctermfg=blue gui=bold guifg=blue
 highlight PreProc cterm=bold ctermfg=red gui=bold guifg=red
