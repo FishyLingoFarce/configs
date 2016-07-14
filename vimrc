@@ -34,7 +34,7 @@ set shiftwidth=4
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 " Pathogen
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " Airline
 set laststatus=2
