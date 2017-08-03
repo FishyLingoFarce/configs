@@ -5,9 +5,9 @@ Xft.rgba: rgb
 ! Xft.hinting: true
 ! Xft.hintstyle: hintslight
 ! Xft.autohint: true
-*geometry: 56x19
 *background: #263238
 *foreground: #BDBDBD
+*geometry: 84x26
 *cursorColor: #424242
 *cursorBlink: 1
 
