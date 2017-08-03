@@ -3,6 +3,7 @@ set fish_greeting ''
 # it
 # set -x XDG_RUNTIME_DIR /tmp
 setenv EDITOR vim
+alias cower="cower --color=auto"
 
 set fish_color_normal -o white
 set fish_color_command -o blue
