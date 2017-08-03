@@ -1,5 +1,7 @@
 set fish_greeting ''
-set -x XDG_RUNTIME_DIR /tmp
+# I'm not sure what this line was for, but it broke pulseaudio, so I commented
+# it
+# set -x XDG_RUNTIME_DIR /tmp
 setenv EDITOR vim
 
 set fish_color_normal -o white
