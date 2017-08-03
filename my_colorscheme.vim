@@ -50,7 +50,7 @@ highlight Cursor ctermbg=black guibg=black
 highlight lCursor guifg=bg guibg=fg
 highlight MatchParen cterm=bold ctermfg=white ctermbg=cyan gui=bold guifg=white guibg=cyan
 highlight Normal ctermfg=white guibg=#37474F
-highlight Comment ctermfg=black guifg=black
+highlight Comment ctermfg=gray guifg=black
 highlight Constant ctermfg=magenta guifg=magenta
 highlight Special cterm=bold ctermfg=green gui=bold guifg=green
 highlight Identifier cterm=bold ctermfg=cyan gui=bold guifg=cyan
