@@ -57,7 +57,7 @@ border_color_pressed = #000000 100
 
 #-------------------------------------
 # Panel
-panel_items = TSBC
+panel_items = TSEBC
 panel_size = 100% 34
 panel_margin = 0 0
 panel_padding = 5 0 10
@@ -145,6 +145,14 @@ launcher_item_app = /usr/share/applications/firefox.desktop
 launcher_item_app = /usr/share/applications/iceweasel.desktop
 launcher_item_app = /usr/share/applications/chromium-browser.desktop
 launcher_item_app = /usr/share/applications/google-chrome.desktop
+
+#-------------------------------------
+# Volume Level
+execp = new
+execp_command = echo 'Volume' && amixer get Master | grep '%' | awk '{print $4}' | sed -e 's/\[//' -e 's/\]//'
+execp_interval = 1
+execp_font = Terminus 9
+execp_font_color = #FFFFFF 100
 
 #-------------------------------------
 # Clock
