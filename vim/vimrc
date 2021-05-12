@@ -66,3 +66,12 @@ set incsearch
 set t_Co=16
 set background=dark
 colorscheme my_colorscheme
+
+" increase update frequency for gitgutter plugin
+set updatetime=100
+
+" Displays open buffers at top of window
+let g:airline#extensions#tabline#enabled = 1
+
+" Python syntax checking with syntastic
+let g:syntastic_python_checkers = ['python']
